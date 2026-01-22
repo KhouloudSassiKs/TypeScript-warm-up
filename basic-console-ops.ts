@@ -1,59 +1,57 @@
 // basic print
-console.log("Hello, World!");
+console.log("Greetings, Universe!");
 
 // Defining a variable
-let x = 20;
+let valueNumber = 42;
 
 // Print the variable's value to the console
-console.log(x); // Outputs: 20
+console.log(valueNumber); // Outputs: 42
 
-let age = 25;
-console.log("Assigning the age variable:", age);
+let userAge = 30;
+console.log("Displaying the user's age:", userAge);
 
 // Print a celebratory message
-console.log("Yaaay! I did it!");
+console.log("Success! Mission accomplished!");
 
-let hieroglyph: number = 1290; // A numerical value found
-let yearDiscovered: string = "2022 A.D."; // The year it was discovered
+let artifactCode: number = 8842; // A numerical value found
+let yearRecorded: string = "3050 A.D."; // The year it was recorded
 
 console.log(
-  "The hieroglyph discovered in",
-  yearDiscovered,
-  "translates to the year",
-  hieroglyph,
-  "B.C. in the cosmic calendar."
+  "The artifact documented in",
+  yearRecorded,
+  "corresponds to the ancient year",
+  artifactCode,
+  "B.C. in the stellar archive."
 );
 
-
-let wheatHarvested: number = 3000;   // Amount of wheat harvested in cosmic units
-let barleyHarvested: number = 2000;  // Amount of barley harvested in cosmic units
-let cosmicCornHarvested: number = 4000; // Amount of cosmic corn harvested
+let ironOreCollected: number = 5200;   // Amount of iron ore collected
+let copperOreCollected: number = 3400;  // Amount of copper ore collected
+let silverOreCollected: number = 7800; // Amount of silver ore collected
 
 console.log(
-  "We have harvested",
-  wheatHarvested,
-  "cosmic units of wheat,",
-  barleyHarvested,
-  "cosmic units of barley, and",
-  cosmicCornHarvested,
-  "cosmic units of corn this cycle."
+  "This cycle we collected",
+  ironOreCollected,
+  "units of iron ore,",
+  copperOreCollected,
+  "units of copper ore, and",
+  silverOreCollected,
+  "units of silver ore."
 );
 
 // We need to highlight another legendary Samurai in our virtual exhibit
 // Prepare the necessary variables and utilize console.log to complete the code
 
-let samurai: string = "Samurai Miyamoto Musashi"; 
-let era: string = "Edo period"; // Samurai Miyamoto Musashi was active during the Edo period
+let warriorName: string = "Samurai Takeda Shingen"; 
+let historicalEra: string = "Sengoku period"; // Takeda Shingen was active during the Sengoku period
 
-console.log(samurai, "lived during the", era);
+console.log(warriorName, "was prominent during the", historicalEra);
 
+let researcherOne: string = "Galileo";      // name
+let findingOne: string = "heliocentric theory"; // discovery
 
-let scientist1: string = "Newton";      // name
-let discovery1: string = "Laws of Motion"; // discovery
+let researcherTwo: string = "Curie";    // name
+let findingTwo: string = "radioactivity"; // discovery
 
-let scientist2: string = "Einstein";    // name
-let discovery2: string = "Theory of Relativity"; // discovery
-
-// Output the scientists' names and their contributions
-console.log(scientist1 + " is renowned for his " + discovery1 + ".");
-console.log(scientist2 + " is known for formulating the " + discovery2 + ".");
+// Output the researchers' names and their contributions
+console.log(researcherOne + " is celebrated for the " + findingOne + ".");
+console.log(researcherTwo + " is known for pioneering research in " + findingTwo + ".");
