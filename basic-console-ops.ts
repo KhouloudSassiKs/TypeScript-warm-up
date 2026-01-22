@@ -46,3 +46,14 @@ let samurai: string = "Samurai Miyamoto Musashi";
 let era: string = "Edo period"; // Samurai Miyamoto Musashi was active during the Edo period
 
 console.log(samurai, "lived during the", era);
+
+
+let scientist1: string = "Newton";      // name
+let discovery1: string = "Laws of Motion"; // discovery
+
+let scientist2: string = "Einstein";    // name
+let discovery2: string = "Theory of Relativity"; // discovery
+
+// Output the scientists' names and their contributions
+console.log(scientist1 + " is renowned for his " + discovery1 + ".");
+console.log(scientist2 + " is known for formulating the " + discovery2 + ".");
