@@ -1,31 +1,31 @@
-let spaceshipSpeed: number = 24000; // Speed of a spaceship in km/h
-let isCommunicationWithEarthActive: boolean = true; // If communication with Earth is active
-let spaceshipName: string = "Voyager 1"; // Name of the spaceship
-let unknownTransmission: undefined; // Undefined transmission
+let droneVelocity: number = 48000; // Speed of a drone in km/h
+let linkToBaseActive: boolean = false; // If communication with base is active
+let droneIdentifier: string = "SkyRunner-X"; // Name of the drone
+let pendingSignal: undefined; // Undefined signal
 
-console.log(typeof spaceshipSpeed);
-console.log(typeof isCommunicationWithEarthActive);
-console.log(typeof spaceshipName);
-console.log(typeof unknownTransmission);
+console.log(typeof droneVelocity);
+console.log(typeof linkToBaseActive);
+console.log(typeof droneIdentifier);
+console.log(typeof pendingSignal);
 
-let canSupportLife: boolean = true; // Boolean type
+let habitatReady: boolean = false; // Boolean type
 
 // Verify the type
-console.log(typeof canSupportLife); // Should print: boolean
+console.log(typeof habitatReady); // Should print: boolean
 
-let explorerName: string = "Astro"; // A string for the space explorer's moniker
-let equippedWithTools: boolean = true; // A correctly typed boolean
-let encounteredPlanets: number = 15; // A correctly typed number
+let pilotAlias: string = "Nova"; // A string for the pilot's moniker
+let hasEquipment: boolean = false; // A correctly typed boolean
+let surveyedSectors: number = 42; // A correctly typed number
 
-console.log(typeof explorerName); // "string"
-console.log(typeof equippedWithTools); // "boolean"
-console.log(typeof encounteredPlanets); // "number"
+console.log(typeof pilotAlias); // "string"
+console.log(typeof hasEquipment); // "boolean"
+console.log(typeof surveyedSectors); // "number"
 
-const mythologicalNameOfSaturn: string = "Cronus"; // Saturn is also known as "Cronus"
-let numberOfRings: number = 7; // 7 main rings
-let saturnHasSolidSurface: boolean = false; // Saturn does not have a solid surface
+const ancientNameOfJupiter: string = "Zeus"; // Jupiter is also known as "Zeus"
+let totalBelts: number = 4; // Number of main belts
+let jupiterHasSurface: boolean = false; // Jupiter does not have a solid surface
 
 // Type checks
-console.log(typeof mythologicalNameOfSaturn);  // string
-console.log(typeof numberOfRings);             // number
-console.log(typeof saturnHasSolidSurface);     // boolean
+console.log(typeof ancientNameOfJupiter);  // string
+console.log(typeof totalBelts);            // number
+console.log(typeof jupiterHasSurface);     // boolean
